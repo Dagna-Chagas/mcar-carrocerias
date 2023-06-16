@@ -1,0 +1,173 @@
+
+*{
+        margin: 0 ;
+        padding: 0;
+        align-items: center;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+    
+
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color:#3C56A6;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color: #3C56A6;
+    color:#ffffff;
+   
+    
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo,.whats{
+    width: 20%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+}
+
+.whats button{
+    padding: 16px;
+    border-bottom: 10px;
+    border-bottom-width:2px;
+    border-bottom-style:inset;
+    border-color:#25D366;
+    color:#075E54;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    display: inline-block;
+    transition: background .4s;
+}
+.whats button a{
+    margin: 5px;
+    color:#075E54;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.whats button:hover, .whats button:hover > a{
+    border-color:#ffffff;
+    background-color:#075E54;
+    color:#ffffff;
+}
+
+.frstimg {    
+    background: url("../img/banner-orcamento.webp");
+    height: 500px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+} 
+
+.whats {
+    text-align: right;
+}
+
+.whats button i{
+    line-height: initial;
+    vertical-align: initial;
+    margin-left: 8px;
+}
+
+.button2 p{
+    position: absolute;
+    width: 639px;
+    height: 202px;
+    left: 90px;
+    top: 117px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+
+.button3 button{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 227.48px;
+    height: 51px;
+    left: 90px;
+    top: 351px;
+
+    background: #3C56A6;
+    border-radius: 8px;
+    border-color: #3C56A6;
+    border-style: none;
+
+}
+
+.button3 button a{
+
+    width: 188px;
+    height: 19px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    line-height: initial;
+    vertical-align: initial;
+    margin-left: 8px;
+    margin-bottom: 16px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button3 button:hover{
+    background-color: transparent;
+    border-style: solid;
+    background-size: 1px;
+    border-color: #ffffff;
+
+}

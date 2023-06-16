@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Solicitar orçamento</title>
+    </head>
+
+    <body> 
+        <div class="solicitar-orcamento"> 
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div class="cabecario">
+            <h1 id="titulo">Solicitar orçamento</h1>
+            <p id="subtitulo">Preencha os campos abaixo que entraremos em contato o mais breve possível</p>            
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <div class="grupo inputs">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input placeholder="Nome completo" type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do telefone com legenda "telefone" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input placeholder="(00) 00000-0000" type="tel" name="telefone" id="telefone" required>
+                </div>
+
+                <!-- Campo de email com-->
+                <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input placeholder="E-mail" type="email" name="email" id="email" required>
+                </div>
+            </div> 
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="Mensagem"><strong>Mensagem</strong></label>
+                <textarea placeholder="Sua mensagem" rows="6" style="width: 100%"; id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">ENVIAR MENSAGEM</button>            
+        </form>
+        </div>
+    </body>
+</html>
+
+
+
