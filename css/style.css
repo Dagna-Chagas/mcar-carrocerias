@@ -1,4 +1,4 @@
-
+/*Formatação Alinhamento e Fonte */
 *{
         margin: 0 ;
         padding: 0;
@@ -6,19 +6,17 @@
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
     
-
 }
-
+/*Cabeçalho Cor e Largura*/
 header{
     background-color: rgb(255, 255, 255);
     width: 100%;
 }
-
-
+/*Menu Alinhamento lateal*/
 #menu-h ul li{
     display: inline;
 }
-
+/*Menu Cor Posicionamento Transição */
 #menu-h ul li a{
     color:#3C56A6;
     padding: 15px;
@@ -26,15 +24,17 @@ header{
     display: inline-block;
     transition: background .4s;
 }
-
+/*Menu C Mouse Cor Fundo e Letra*/
 #menu-h ul li a:hover{
     background-color: #3C56A6;
     color:#ffffff;
    
     
 }
-
-.container{
+/*Barra Menu Cor Fundo Fonte Alinhamento*/
+.barramenu{
+    position: fixed;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: 0 auto;
@@ -42,18 +42,25 @@ header{
     align-items: center;
     justify-content: center;
 }
-
+/*Logo Ajuste Altura Largura*/
+.logo img{
+    width: 100%;
+    height: 100%;
+    max-width: 161px;
+    max-height: 58px;
+}
+/*Logo Whatsapp Largura & Clic area*/
 .logo,.whats{
     width: 20%;
     cursor: pointer;
 }
-
+/*Menu Largura*/
 .menu{
     width: 50%;
 }
-
+/*Button Whatsapp Cor Fonte Estilo Transição Clic area*/
 .whats button{
-    padding: 16px;
+    padding: 10px;
     border-bottom: 10px;
     border-bottom-width:2px;
     border-bottom-style:inset;
@@ -65,58 +72,59 @@ header{
     display: inline-block;
     transition: background .4s;
 }
+/*Button Whatsapp Escrita Cor Font Decoration*/
 .whats button a{
     margin: 5px;
     color:#075E54;
     text-decoration: none;
     font-size: 20px;
 }
-
+/*Button Whatsapp C Mouse Cor Borda Ecrita Fundo*/
 .whats button:hover, .whats button:hover > a{
     border-color:#ffffff;
     background-color:#075E54;
     color:#ffffff;
 }
-
+/*Banner Orçamento Tamanho Posição*/
 .frstimg {    
     background: url("../img/banner-orcamento.webp");
-    height: 500px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 520px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 } 
-
+/*Button Whatsapp Alinhamento de Texto*/
 .whats {
     text-align: right;
 }
-
+/*Button Whatsapp Distancia da Margem Alinhamento*/
 .whats button i{
     line-height: initial;
     vertical-align: initial;
     margin-left: 8px;
 }
-
-.button2 p{
+/*Frase Do Banner Formatação Posicionamento*/
+.frasetopo p{
     position: absolute;
     width: 639px;
     height: 202px;
     left: 90px;
-    top: 117px;
+    top: 190px;
     
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
-    /* or 117% */
+   
     
     display: flex;
     align-items: center;
     
     color: #FFFFFF;
 }
-
-.button3 button{
+/*Button Orçamento Cor Alinhamento */
+.solcitorcament button{
 
     display: flex;
     flex-direction: row;
@@ -128,7 +136,7 @@ header{
     width: 227.48px;
     height: 51px;
     left: 90px;
-    top: 351px;
+    top: 430px;
 
     background: #3C56A6;
     border-radius: 8px;
@@ -136,8 +144,8 @@ header{
     border-style: none;
 
 }
-
-.button3 button a{
+/*Button Orçamento Escrita Cor Alinhamento*/
+.solcitorcament button a{
 
     width: 188px;
     height: 19px;
@@ -163,11 +171,43 @@ header{
     flex-grow: 0;
 
 }
-
-.button3 button:hover{
+/*Button Orçamento C Mouse Cor Transparencia */
+.solcitorcament button:hover{
     background-color: transparent;
     border-style: solid;
     background-size: 1px;
     border-color: #ffffff;
 
+}
+/*Titulo Quem Somos Fonte Cor Alinhamento*/
+.titulo{
+    color:#3c54a6;
+    text-align: center; 
+    height: 48px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;    
+    padding: 40px;
+}
+/*Texto Quem Somos Fonte Cor Alinhamento*/
+.texto{
+    width: 1300px;
+    height: 240px;
+
+    font-family:'Roboto Condensed';
+    font-style: normal;
+    font-weight:400;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+
+    color: #141414;
+
+padding: 48px 135px 48px 135px;
 }
