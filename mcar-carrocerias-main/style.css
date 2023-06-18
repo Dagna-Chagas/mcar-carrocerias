@@ -187,43 +187,38 @@ header{
     padding: 0px 32px;
     gap: 48px;
 }
-
+/*Imagens dos Serviços*/
 .img-servicos-1 {
-    background-image: url("/img/servico-1.jpg");
     width: 512px;
     height: 350px;
 }
 
 .img-servicos-2 {
-    background-image: url("/img/servico-2.jpg");
     width: 512px;
     height: 350px;
 }
 
 .img-servicos-3 {
-    background-image: url("/img/servico-3.JPG");
     width: 512px;
     height: 350px;
 }
 
 .img-servicos-4 {
-    background-image: url("/img/servico-4.jpg");
     width: 512px;
     height: 350px;
 }
 
 .img-servicos-5 {
-    background-image: url("/img/servico-5.jpg");
     width: 512px;
     height: 350px;
 }
 
 .img-servicos-6 {
-    background-image: url("/img/servico-6.jpg");
     width: 512px;
     height: 350px;
 }
 
+/*Texto dos Serviços*/
 .txt-servicos {
     display: flex;
     flex-direction: column;
