@@ -142,14 +142,18 @@ header{
     background: #3C56A6;
     border-radius: 8px;
     padding: 16px;
+    border: 1px solid #3C56A6;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.solcitorcament a {
     font-weight: 700;
     font-size: 16px;
     color: #fff;
     font-family: 'Lato', sans-serif;
     line-height: 19px;
-    border: 1px solid #3C56A6;
-    cursor: pointer;
-    margin-top: 32px;
+    text-decoration: none;
 }
 
 /*Button Orçamento C Mouse Cor Transparencia */
