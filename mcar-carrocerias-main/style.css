@@ -62,6 +62,8 @@ header{
     max-width: 161px;
     max-height: 58px;
 }
+
+
 /*Logo Whatsapp Largura & Clic area*/
 .logo,.whats{
     cursor: pointer;
